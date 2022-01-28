@@ -1,5 +1,6 @@
 body {
-    background-color: #76c8ff;
+    /* background-color: #76c8ff; */
+    background-image: radial-gradient(lightgray, lightblue, violet);
     margin: 0;
     font-family: sans-serif;
     display: flex;
@@ -51,6 +52,7 @@ header a:hover, form button:hover {
 
 .container h1 {
     margin: 0 0 .5rem;
+    text-align: center;
 }
 
 form input, form button {
